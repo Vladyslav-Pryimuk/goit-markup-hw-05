@@ -502,6 +502,7 @@ body {
 }
 
 .header-logo-footer {
+  display: inline-block;
   color: var(--item-color);
   font-size: 18px;
   font-weight: 800;
@@ -509,8 +510,6 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: block;
-  display: inline-block;
   margin-bottom: 17.5px;
 }
 
@@ -561,6 +560,10 @@ body {
 .portfolio-cover {
   position: relative;
   overflow: hidden;
+}
+
+.portfolio-cover:hover .portfolio-cover-text {
+  transform: translateY(0%);
 }
 
 .portfolio-cover-text {
@@ -650,7 +653,7 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.projects-link:is(:hover, :focus) .portfolio-cover-text {
+.projects-link:focus .portfolio-cover-text {
   transform: translateY(0%);
 }
 
