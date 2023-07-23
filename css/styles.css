@@ -907,7 +907,6 @@ body {
   align-items: center;
   justify-content: center;
   border-radius: 2px;
-  border: 1px solid var(--accent-color, rgba(46, 47, 66, 0.4));
   margin-right: 8px;
   fill: transparent;
 }
